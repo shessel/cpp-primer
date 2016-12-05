@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(cpp-primer)
+enable_testing()
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+add_subdirectory(16-templates)
