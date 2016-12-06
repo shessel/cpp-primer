@@ -8,3 +8,5 @@ add_test(NAME 16.2-compare-test COMMAND $<TARGET_FILE:16.2-compare>)
 
 add_executable(16.4-find 16.4-find.cpp)
 add_test(NAME 16.4-find-test COMMAND $<TARGET_FILE:16.4-find>)
+
+add_executable(16.5-print 16.5-print.cpp)
