@@ -13,3 +13,5 @@ add_executable(16.5-print 16.5-print.cpp)
 
 add_executable(16.6-begin-end 16.6-begin-end.cpp)
 add_test(NAME 16.6-begin-end-test COMMAND $<TARGET_FILE:16.6-begin-end>)
+
+add_executable(16.7-array-size 16.7-array-size.cpp)
