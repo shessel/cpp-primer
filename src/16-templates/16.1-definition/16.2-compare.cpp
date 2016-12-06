@@ -11,7 +11,6 @@ int main() {
     if (compare(1, 2) != -1) return 1;
     if (compare(2, 1) != 1) return 1;
     if (compare(2, 2) != 0) return 1;
-    std::cout << "cout" << std::endl;
-    std::cerr << "cerr" << std::endl;
+    
     return 0;
 }
