@@ -2,12 +2,12 @@
 #include <iterator>
 
 template <typename ValueType, size_t N>
-ValueType * const myBegin(ValueType (&array)[N]) {
+ValueType * myBegin(ValueType (&array)[N]) {
     return &array[0];
 }
 
 template <typename ValueType, size_t N>
-ValueType * const myEnd(ValueType (&array)[N]) {
+ValueType * myEnd(ValueType (&array)[N]) {
     return &array[N];
 }
 
