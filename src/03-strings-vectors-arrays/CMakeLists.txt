@@ -6,3 +6,4 @@ enable_testing()
 
 add_subdirectory(03.2-strings)
 add_subdirectory(03.03-vectors)
+add_subdirectory(03.04-iterators)
