@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(03.01-strings)
+project(03.02-strings)
 add_compile_options(-Wall -Wextra -Werror -std=c++1z)
 
 add_executable(03.02-read 03.02-read.cpp)
